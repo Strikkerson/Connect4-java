@@ -3,7 +3,6 @@ package com.strikkerson.connect4;
 import java.awt.BorderLayout;
 import java.awt.CardLayout;
 import javax.swing.JFrame;
-import javax.swing.JButton;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
