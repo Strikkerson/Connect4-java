@@ -99,7 +99,7 @@ public class Game{
             if(isToRight) j++;
             else j--;
             
-        }while(i != endLine);
+        }while((i != endLine+1 && !isToUp) || (i != endLine-1 && isToUp));
         
         return diagonal.toArray(new Integer[diagonal.size()]); 
     }
